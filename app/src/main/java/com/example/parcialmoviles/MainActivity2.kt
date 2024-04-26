@@ -105,6 +105,14 @@ class MainActivity2 : AppCompatActivity() {
             override fun onAnimationRepeat(animation: Animation?) {}
         })
     }
+    private fun carousel_init(view_carousel:ImageCarousel){
+        val carrusel:ImageCarousel = view_carousel
+        val list = mutableListOf<CarouselItem>()
+        list.add(CarouselItem("url"))
+
+        carusel.setData(list)
+
+    }
 }
 
 
